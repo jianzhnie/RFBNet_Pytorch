@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
-#from layers import *
 import torchvision.transforms as transforms
 import torchvision.models as models
 import torch.backends.cudnn as cudnn
@@ -222,6 +221,9 @@ class RFBNet(nn.Module):
         return output
 
     def load_weights(self, base_file):
+        """
+        load basenet weights
+        """
         other, ext = os.path.splitext(base_file)
         if ext == '.pkl' or '.pth':
             print('Loading weights into state dict...')
