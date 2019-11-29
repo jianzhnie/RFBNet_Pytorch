@@ -5,7 +5,7 @@ By Jianzhnie
 ## What's New ?
 - 对原来的[代码](https://github.com/ruinmessi/RFBNet)进行了修改和优化
 - 在看RFBNet的源代码时， 发现代码中的网络结构和论文中的结构不一致， 这一点在 [issuse: The difference of RFBNet in RFB_Net_vgg.py and Fig.5 ?](https://github.com/ruinmessi/RFBNet/issues/27) 中也有提到
-- 新增了一些其他的网络结构
+- 修改了网络结构和论文一致
 
 
 ## 目录结构
